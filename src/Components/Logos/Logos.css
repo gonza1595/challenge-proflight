@@ -1,0 +1,48 @@
+.logo {
+width: 216.49px;
+height: 206px;
+border-radius: 30px;
+margin: 15px;
+opacity: .7;
+}
+
+.selected {
+width: 216.49px;
+height: 206px;
+border-radius: 30px;
+margin: 15px;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 204.9vh;
+   height: 100vh;
+    background-color: rgb(141, 153, 155);
+}
+
+.button-style {
+width: 85px;
+height: 85px;
+font-size: 70px;
+border-radius: 50%;
+cursor: pointer;
+border: solid 5px black;
+background-color: rgb(201, 204, 204);
+}
+
+.button-style:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+
+    .container-logo {
+        width: 10%;
+       
+    }
+
+}
+    
